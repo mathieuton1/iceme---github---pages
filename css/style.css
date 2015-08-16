@@ -82,3 +82,13 @@ body {
 .navbar-transparent .navbar-brand:focus {
   color: white;
 }
+
+.btn-primary {
+background-color: #1ABC9C;
+border-color: #1ABC9C;
+}
+
+.btn-primary:hover {
+  background-color: #16a085;
+  border-color: #16a085;
+}
