@@ -48,9 +48,15 @@ body {
   margin-bottom: 2em;
 }
 
-.spacer {
+.vertical-spacer {
+	padding-top: 2px;
 	height: 8em;
+	padding-bottom: 5em;
 }
+
+.vertical-spacer h2 {
+	margin-top: 3em;
+}	
 
 .feature p {
 	font-weight: 300;
