@@ -22,24 +22,30 @@ body {
 	font-size: 24px;
 }
 
-#wrapper {
+.wrapper {
 	background-image: url("../images/background/background.jpg");
-	height: 550px;
+	height: 650px;
 	background-size: cover;
 	text-align: center;
 	padding-top: 150px;
 	color: white;
-	text-shadow : 2px 2px 5px rgba(0, 0, 0, 0.5);
 
 }
 
-#wrapper h1 {
-	font-size: 72px;
+.lead h1 {
+  font-size: 72px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+  font-weight: normal;
 }
 
-#wrapper h2{
-	font-size: 18px;
-	margin-bottom: 1em;
+.lead h2 {
+  background: rgba(0, 0, 0, .4);
+  display: inline-block;
+  padding: 0.2em;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 2em;
 }
 
 .spacer {
@@ -64,7 +70,7 @@ body {
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: #eeeeee;
-  line-height: 50px;
+  line-height: 20px;
 }
 
 .navbar-transparent .navbar-nav > li > a:hover,
@@ -86,6 +92,8 @@ body {
 .btn-primary {
 background-color: #1ABC9C;
 border-color: #1ABC9C;
+margin-top: 1em;
+margin-bottom : 1em;
 }
 
 .btn-primary:hover {
